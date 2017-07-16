@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+
+p{
+    font-size: 23px;
+}
+
+#HomeButton, #CVButton, #BlogButton{
+    display: inline-block;
+    padding: 0px 20px 0px 30px;
+} 
+
+#MainBody{
+    position: relative;
+}
+
+
+#PictureCarousel{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.Box {
+    margin: 10px;
+}
+
+#Boxes{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    padding: 100px;
+}
+
+#Boxes img{
+    height: 150px;
+    width: 150px;
+}
+
+#BoxTopLeft, #BoxBottomLeft{
+    float: left;
+}
+
+#BoxTopRight, #BoxBottomRight{
+    float: right;
+}
+
+footer{
+    width: 100%;
+    text-align: center; 
+    position: absolute;
+    bottom: 0%;
+}
+
+.foot{
+    display: inline-block;
+    padding: 5px 30px;
+}
